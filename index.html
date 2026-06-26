@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SEKTRA · The Fauna Collection · Perfume in Animal Form</title>
+<meta name="description" content="SEKTRA presents The Fauna Collection, perfume in animal form. Creatures cast in glass and brass, each an extrait composed by hand. A limited release." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@1,400;1,500;1,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span id="prog"></span></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand">Sektra<sup>®</sup></a>
+  <nav class="nav__links">
+    <a href="#collection">The Fauna</a>
+    <a href="#elixirs">Les Élixirs</a>
+    <a href="#notes">The Notes</a>
+    <a href="#atelier">Atelier</a>
+    <a href="#join">Release</a>
+  </nav>
+  <a href="#join" class="btn btn--rust nav__cta">Pre-order</a>
+  <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero__copy">
+    <span class="badge"><i></i> New Release · Spring 2026</span>
+    <h1 class="hero__title">The <em>Fauna</em><br>Collection</h1>
+    <p class="hero__lede">
+      SEKTRA presents perfume in animal form, three creatures cast in
+      glass and brass, each a hand-composed extrait. Wear the wild.
+    </p>
+    <div class="hero__actions">
+      <a href="#collection" class="btn btn--rust btn--lg">Discover the Collection</a>
+      <button type="button" class="btn btn--ghost btn--lg" data-story>The Story</button>
+    </div>
+    <div class="hero__meta">
+      <span><b>Extrait</b> de Parfum</span>
+      <span><b>Paris</b> · Maison SEKTRA</span>
+      <span>Limited to <b>500</b></span>
+    </div>
+  </div>
+
+  <div class="hero__stage">
+    <div class="hero__media">
+      <div class="hero__ring"></div>
+      <span class="spec spec--1"><b>N°00</b> · Le Paon Royal</span>
+      <span class="spec spec--2">Extrait de Parfum</span>
+      <span class="spec spec--3">Macération · 11 mois</span>
+      <video src="assets/hero.mp4" autoplay loop muted playsinline poster="assets/fauna-peacock.png" aria-label="The Sektra peacock flacon"></video>
+      <div class="hero__cap"><b>100 ml</b> Hand-numbered · 500</div>
+    </div>
+  </div>
+  <div class="frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- ===== COLLECTION ===== -->
+<section class="section section--bone" id="collection">
+  <div class="wrap">
+    <div class="sec-head" data-rise>
+      <div class="sec-head__l">
+        <span class="kicker">The Collection · 03 Creatures</span>
+        <h2 class="sec-title">Three Creatures,<br>Three Compositions</h2>
+      </div>
+      <p class="sec-lead">Each flacon is sculpted in the likeness of its creature and filled
+        with an extrait built to its character, predatory, gentle, or proud.</p>
+    </div>
+
+    <div class="grid3">
+      <article class="card" data-rise data-id="fauve">
+        <div class="card__media">
+          <span class="card__no">N°01</span><span class="card__fam">Amber · Leather</span>
+          <img src="assets/fauna-leopard.png" alt="Fauve flacon" />
+        </div>
+        <div class="card__body">
+          <h3 class="card__name">Fauve</h3>
+          <p class="card__note">Spiced amber prowling beneath black orchid, oud and a trail of smoke.</p>
+          <div class="card__row"><span class="card__price">€420</span><a href="#join" class="card__add">Add to bag →</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-rise data-id="savane">
+        <div class="card__media">
+          <span class="card__no">N°02</span><span class="card__fam">Honey · Wood</span>
+          <img src="assets/fauna-giraffe.png" alt="Savane flacon" />
+        </div>
+        <div class="card__body">
+          <h3 class="card__name">Savane</h3>
+          <p class="card__note">Golden acacia honey poured over warm sandalwood, tea and dry amber.</p>
+          <div class="card__row"><span class="card__price">€390</span><a href="#join" class="card__add">Add to bag →</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-rise data-id="plume">
+        <div class="card__media">
+          <span class="card__no">N°03</span><span class="card__fam">Iris · Plum</span>
+          <img src="assets/fauna-peacock.png" alt="Paon Royal flacon" />
+        </div>
+        <div class="card__body">
+          <h3 class="card__name">Paon Royal</h3>
+          <p class="card__note">Indigo plum, powdered iris and smoked incense unfurled in full display.</p>
+          <div class="card__row"><span class="card__price">€440</span><a href="#join" class="card__add">Add to bag →</a></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SPOTLIGHT ===== -->
+<section class="section" id="spotlight">
+  <div class="wrap">
+    <div class="spot">
+      <div class="spot__media" data-rise>
+        <span class="tagv">N°01 · Maison SEKTRA</span>
+        <img src="assets/fauna-leopard.png" alt="Le Léopard, the leopard flacon" />
+      </div>
+      <div class="spot__copy" data-rise>
+        <span class="kicker">The Signature · Fauve</span>
+        <h2 class="sec-title">A Predator,<br>Bottled</h2>
+        <p>Fauve is the maison's emblem, a brass-and-enamel beast crowned with a
+          carved head, holding an extrait that opens warm and ends feral. Each is numbered,
+          hand-poured and rested eleven months before release.</p>
+        <div class="notes">
+          <div><span>Top</span><p>Pink pepper, saffron, bergamot</p></div>
+          <div><span>Heart</span><p>Black orchid, leather, amber</p></div>
+          <div><span>Base</span><p>Oud, smoke, vanilla absolute</p></div>
+        </div>
+        <a href="#join" class="btn btn--solid btn--lg">Reserve Fauve · €420</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COLLECTION 02, THE ELIXIRS ===== -->
+<section class="section section--bone" id="elixirs">
+  <div class="wrap">
+    <div class="sec-head" data-rise>
+      <div class="sec-head__l">
+        <span class="kicker">The Second Edition · Les Élixirs</span>
+        <h2 class="sec-title">The Jewel<br>Flacons</h2>
+      </div>
+      <p class="sec-lead">Beyond the beasts, a trio of sculpted glass jewels, pure compositions
+        for those who prefer their wild abstract.</p>
+    </div>
+
+    <div class="grid3">
+      <article class="card" data-rise data-id="dore">
+        <div class="card__media">
+          <span class="card__no">N°04</span><span class="card__fam">Gold · Resin</span>
+          <img src="assets/elixir-cobalt.png" alt="Doré flacon" />
+        </div>
+        <div class="card__body">
+          <h3 class="card__name">Doré</h3>
+          <p class="card__note">Liquid amber and labdanum caged in gilded glass, warm, resinous, regal.</p>
+          <div class="card__row"><span class="card__price">€360</span><a href="#join" class="card__add">Add to bag →</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-rise data-id="mosaique">
+        <div class="card__media">
+          <span class="card__no">N°05</span><span class="card__fam">Iris · Musk</span>
+          <img src="assets/elixir-grenat.png" alt="Mosaïque flacon" />
+        </div>
+        <div class="card__body">
+          <h3 class="card__name">Mosaïque</h3>
+          <p class="card__note">A stained-glass heart of violet, iris and white musk over soft suede.</p>
+          <div class="card__row"><span class="card__price">€380</span><a href="#join" class="card__add">Add to bag →</a></div>
+        </div>
+      </article>
+
+      <article class="card" data-rise data-id="ambre">
+        <div class="card__media">
+          <span class="card__no">N°06</span><span class="card__fam">Amber · Vanilla</span>
+          <img src="assets/elixir-ambre.png" alt="Ambre flacon" />
+        </div>
+        <div class="card__body">
+          <h3 class="card__name">Ambre</h3>
+          <p class="card__note">Molten amber, tonka and vanilla absolute swirled into a single warm breath.</p>
+          <div class="card__row"><span class="card__price">€370</span><a href="#join" class="card__add">Add to bag →</a></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NOTES, the olfactory palette ===== -->
+<section class="section notes-sec" id="notes">
+  <div class="wrap">
+    <div class="sec-head" data-rise>
+      <div class="sec-head__l">
+        <span class="kicker">The Olfactory Palette</span>
+      </div>
+      <p class="sec-lead">Six raw materials run through the collection, the threads every
+        creature is woven from. Hover to follow each one.</p>
+    </div>
+
+    <div class="notes-grid" data-rise>
+      <article class="note" style="--c:#b5732e;--hi:#e8c78c;--g:rgba(181,115,46,.55)">
+        <div class="note__orb"></div>
+        <span class="note__no">N°01 · Base</span>
+        <h3 class="note__name">Amber</h3>
+        <p class="note__desc">Warm, golden and resinous, the soul of the maison. It wraps every composition in a soft, lingering glow.</p>
+      </article>
+      <article class="note" style="--c:#b8a285;--hi:#f1e6d6;--g:rgba(203,183,158,.5)">
+        <div class="note__orb"></div>
+        <span class="note__no">N°02 · Base</span>
+        <h3 class="note__name">Musk</h3>
+        <p class="note__desc">Skin-soft and clean. The quiet, intimate base that makes a scent feel worn rather than applied.</p>
+      </article>
+      <article class="note" style="--c:#5a3826;--hi:#9a6238;--g:rgba(120,70,45,.6)">
+        <div class="note__orb"></div>
+        <span class="note__no">N°03 · Base</span>
+        <h3 class="note__name">Oud</h3>
+        <p class="note__desc">Dark, smoky agarwood, precious and faintly animalic. The deepest, most narcotic note in the cabinet.</p>
+      </article>
+      <article class="note" style="--c:#8e86b0;--hi:#d3cee6;--g:rgba(142,134,176,.55)">
+        <div class="note__orb"></div>
+        <span class="note__no">N°04 · Heart</span>
+        <h3 class="note__name">Iris</h3>
+        <p class="note__desc">Powdery, cool and aristocratic. A rooty violet that lends a silvered, couture restraint.</p>
+      </article>
+      <article class="note" style="--c:#6b3b22;--hi:#aa6839;--g:rgba(150,80,40,.55)">
+        <div class="note__orb"></div>
+        <span class="note__no">N°05 · Heart</span>
+        <h3 class="note__name">Leather</h3>
+        <p class="note__desc">Smoke-cured and supple, the scent of the wild, tamed. Birch, suede and a whisper of tar.</p>
+      </article>
+      <article class="note" style="--c:#7d7468;--hi:#bdb6a8;--g:rgba(150,140,120,.5)">
+        <div class="note__orb"></div>
+        <span class="note__no">N°06 · Heart</span>
+        <h3 class="note__name">Incense</h3>
+        <p class="note__desc">Sacred smoke. Cold stone, frankincense and myrrh, meditative, mineral and grey-blue.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ATELIER, cinematic, couture-restrained ===== -->
+<section class="film" id="atelier">
+  <div class="film__inner" data-rise>
+    <span class="kicker">The Atelier</span>
+    <p class="film__quote">Within the laboratory, each essence is weighed, married and left to rest. Every flacon is traced to the bench where it was born.</p>
+  </div>
+
+  <div class="film__quiz" data-rise>
+    <span class="kicker">The Scent Finder</span>
+    <h3 class="quiz__title">Find your note</h3>
+
+    <div class="quiz__step" data-step="0">
+      <p class="quiz__q">You are drawn to</p>
+      <div class="quiz__opts">
+        <button data-k="warm">Golden warmth</button>
+        <button data-k="fresh">Cool &amp; powdery</button>
+        <button data-k="smoke">Smoke &amp; leather</button>
+        <button data-k="clean">Soft, clean skin</button>
+      </div>
+    </div>
+
+    <div class="quiz__step" data-step="1" hidden>
+      <p class="quiz__q">After dark, you would rather</p>
+      <div class="quiz__opts">
+        <button data-k="smoke">Vanish into shadow</button>
+        <button data-k="warm">Glow by candlelight</button>
+        <button data-k="clean">Feel weightless</button>
+        <button data-k="fresh">Stay cool &amp; composed</button>
+      </div>
+    </div>
+
+    <div class="quiz__result" hidden>
+      <span class="quiz__rk">Your note</span>
+      <h4 class="quiz__note" id="quizNote">Amber</h4>
+      <p class="quiz__rec" id="quizRec"></p>
+      <button class="quiz__again" id="quizAgain">Start over</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== JOIN ===== -->
+<section class="section section--bone join" id="join">
+  <div class="wrap">
+    <div data-rise>
+      <span class="kicker kicker--mut">The Release</span>
+      <h2 class="sec-title">Join the Fauna List</h2>
+      <p>The collection opens to the list first. Leave your address to reserve a numbered
+        flacon before the public release.</p>
+      <form class="join__form" onsubmit="return false">
+        <input type="email" placeholder="your@email.com" aria-label="Email" required />
+        <button class="btn btn--rust" type="submit">Notify me</button>
+      </form>
+      <p class="join__fine">No noise, only the launch.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <div>
+        <div class="foot__brand">Sektra<sup>®</sup></div>
+        <p class="foot__tag">Perfume in animal form. A maison composing scent as memory, cast by hand in Paris.</p>
+      </div>
+      <div class="foot__col">
+        <h4>The Fauna</h4>
+        <a href="#collection">Fauve</a>
+        <a href="#collection">Savane</a>
+        <a href="#collection">Paon Royal</a>
+        <a href="#elixirs">Les Élixirs</a>
+      </div>
+      <div class="foot__col">
+        <h4>Maison</h4>
+        <a href="#atelier">The Atelier</a>
+        <a href="#" data-story>The Story</a>
+        <a href="#top">Journal</a>
+        <a href="#top">Stockists</a>
+      </div>
+      <div class="foot__col">
+        <h4>Connect</h4>
+        <a href="#top">Instagram</a>
+        <a href="#top">Newsletter</a>
+        <a href="#top">Contact</a>
+        <a href="#top">Press</a>
+      </div>
+    </div>
+    <div class="foot__bar">
+      <span>© <span id="yr">2026</span> Maison Sektra · Paris</span>
+      <span>Perfume in Animal Form</span>
+      <span>Terms · Privacy</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== STORY MODAL ===== -->
+<div class="modal" id="storyModal" aria-hidden="true">
+  <div class="modal__scrim" data-close></div>
+  <div class="modal__panel modal__panel--story" role="dialog" aria-modal="true" aria-labelledby="story-t">
+    <button class="modal__x" data-close aria-label="Close">&times;</button>
+    <div class="story__img" style="background-image:url('assets/atelier-lab.jpg')"></div>
+    <div class="story__body">
+      <span class="kicker">The House of Sektra</span>
+      <h3 class="story__title" id="story-t">Perfume, in Animal Form</h3>
+      <p>Sektra was founded in Paris on a single idea: that a scent should arrive with a face.
+        Each composition is poured into a flacon shaped like the creature that inspired it,
+        cast in glass and brass and finished entirely by hand.</p>
+      <p>The maison works in small batches, resting every extrait eleven months before it is
+        numbered and released. No two flacons are exactly alike, and only five hundred of
+        each will ever exist.</p>
+      <p>Three creatures. Six compositions. One belief, worn on the skin: that the wild was
+        never meant to be tamed, only bottled.</p>
+      <a href="#collection" class="btn btn--rust" data-close>Explore the Collection</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== PRODUCT MODAL ===== -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__scrim" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="m-name">
+    <button class="modal__x" data-close aria-label="Close">&times;</button>
+    <div class="modal__media">
+      <div class="modal__glow"></div>
+      <img id="m-img" src="" alt="" />
+      <span class="modal__no" id="m-no"></span>
+    </div>
+    <div class="modal__body">
+      <span class="kicker" id="m-fam"></span>
+      <h3 class="modal__name" id="m-name"></h3>
+      <p class="modal__desc" id="m-desc"></p>
+      <div class="notes" id="m-notes"></div>
+      <div class="modal__buy">
+        <span class="modal__price" id="m-price"></span>
+        <a href="#join" class="btn btn--rust" data-close>Reserve →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const PRODUCTS = {
+    fauve:{no:"N°01",fam:"Amber · Leather",price:"€420",img:"assets/fauna-leopard.png",
+      desc:"The maison's emblem. A spiced amber that opens warm and animal, prowling beneath black orchid and a long trail of smoke. Worn close to the skin, it never fully tames.",
+      notes:[["Top","Pink pepper, saffron, bergamot"],["Heart","Black orchid, leather, amber"],["Base","Oud, smoke, vanilla absolute"]]},
+    savane:{no:"N°02",fam:"Honey · Wood",price:"€390",img:"assets/fauna-giraffe.png",
+      desc:"Golden hour on dry grass. Acacia honey poured over warm sandalwood, black tea and dusty amber, gentle, sunlit and quietly tenacious.",
+      notes:[["Top","Acacia honey, bergamot, immortelle"],["Heart","Black tea, mimosa, sandalwood"],["Base","Dry amber, tonka, cedar"]]},
+    plume:{no:"N°03",fam:"Iris · Plum",price:"€440",img:"assets/fauna-peacock.png",
+      desc:"A display of colour. Indigo plum and powdered iris unfurl over smoked incense and soft suede, regal, cool-toned and faintly metallic.",
+      notes:[["Top","Plum, violet leaf, bergamot"],["Heart","Iris, incense, rose"],["Base","Suede, musk, patchouli"]]},
+    dore:{no:"N°04",fam:"Gold · Resin",price:"€360",img:"assets/elixir-cobalt.png",
+      desc:"Liquid amber caged in gilded glass. Labdanum and benzoin melt into honeyed resin and warm woods, opulent, golden and slow to fade.",
+      notes:[["Top","Mandarin, elemi, pink pepper"],["Heart","Labdanum, benzoin, immortelle"],["Base","Amber, sandalwood, vanilla"]]},
+    mosaique:{no:"N°05",fam:"Iris · Musk",price:"€380",img:"assets/elixir-grenat.png",
+      desc:"A stained-glass heart. Cool violet and powdered iris set against white musk and soft suede, luminous, faceted and clean.",
+      notes:[["Top","Violet, aldehydes, bergamot"],["Heart","Iris, orris, lily"],["Base","White musk, suede, cashmeran"]]},
+    ambre:{no:"N°06",fam:"Amber · Vanilla",price:"€370",img:"assets/elixir-ambre.png",
+      desc:"Molten and edible. Amber, tonka and vanilla absolute swirled with a whisper of resin and smoke, the warmest of the six, made to linger.",
+      notes:[["Top","Saffron, cardamom, orange"],["Heart","Amber, tonka bean, labdanum"],["Base","Vanilla absolute, benzoin, musk"]]}
+  };
+  const modal = document.getElementById('modal');
+  const openModal = (id) => {
+    const p = PRODUCTS[id]; if(!p) return;
+    document.getElementById('m-img').src = p.img;
+    document.getElementById('m-no').textContent = p.no;
+    document.getElementById('m-fam').textContent = p.fam;
+    document.getElementById('m-name').textContent = {fauve:"Fauve",savane:"Savane",plume:"Paon Royal",dore:"Doré",mosaique:"Mosaïque",ambre:"Ambre"}[id];
+    document.getElementById('m-desc').textContent = p.desc;
+    document.getElementById('m-price').textContent = p.price;
+    document.getElementById('m-notes').innerHTML = p.notes.map(n=>`<div><span>${n[0]}</span><p>${n[1]}</p></div>`).join('');
+    modal.classList.add('open'); modal.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+  };
+  const closeModal = () => { modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); document.body.style.overflow=''; };
+  document.querySelectorAll('.card[data-id]').forEach(card => {
+    card.addEventListener('click', (e) => { if(e.target.closest('.card__add')) return; openModal(card.dataset.id); });
+  });
+  modal.addEventListener('click', e => { if(e.target.hasAttribute('data-close')) closeModal(); });
+
+  // ---- Story modal ----
+  const storyModal = document.getElementById('storyModal');
+  const openStory = () => { storyModal.classList.add('open'); storyModal.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; };
+  const closeStory = () => { storyModal.classList.remove('open'); storyModal.setAttribute('aria-hidden','true'); document.body.style.overflow=''; };
+  document.querySelectorAll('[data-story]').forEach(el => el.addEventListener('click', e => { e.preventDefault(); openStory(); }));
+  storyModal.addEventListener('click', e => { if(e.target.hasAttribute('data-close')) closeStory(); });
+
+  addEventListener('keydown', e => { if(e.key==='Escape'){ closeModal(); closeStory(); } });
+
+</script>
+<script>
+  // year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  // sticky nav
+  const nav = document.getElementById('nav');
+  const prog = document.getElementById('prog');
+  const heroMedia = document.querySelector('.hero__media');
+  const onScroll = () => {
+    const y = window.scrollY;
+    nav.classList.toggle('is-stuck', y > 40);
+    if(prog){ const max = document.documentElement.scrollHeight - innerHeight; prog.style.width = (max>0 ? (y/max*100) : 0) + '%'; }
+    if(heroMedia && y < innerHeight){ heroMedia.style.transform = 'translateY(' + (y*0.09) + 'px)'; }
+  };
+  onScroll(); addEventListener('scroll', onScroll, {passive:true});
+  // mobile menu (simple anchor reveal)
+  document.getElementById('burger').addEventListener('click', () => {
+    const links = document.querySelector('.nav__links');
+    const open = links.style.display === 'flex';
+    Object.assign(links.style, open ? {display:''} : {
+      display:'flex', position:'absolute', top:'100%', left:0, right:0,
+      flexDirection:'column', gap:'18px', background:'#fff', padding:'24px var(--gut)',
+      borderBottom:'1px solid rgba(23,19,13,.13)'
+    });
+  });
+  // ---- Scent Finder quiz ----
+  (function(){
+    const quiz=document.querySelector('.film__quiz'); if(!quiz) return;
+    const steps=[...quiz.querySelectorAll('.quiz__step')];
+    const result=quiz.querySelector('.quiz__result');
+    const noteEl=quiz.querySelector('#quizNote'), recEl=quiz.querySelector('#quizRec');
+    const MAP={
+      warm:{note:"Amber",rec:"Begin with <b>Ambre</b> · molten amber, tonka and vanilla."},
+      fresh:{note:"Iris",rec:"Begin with <b>Mosaïque</b> · cool iris, violet and white musk."},
+      smoke:{note:"Oud &amp; Leather",rec:"Begin with <b>Fauve</b> · black orchid, leather and oud."},
+      clean:{note:"Musk",rec:"Begin with <b>Savane</b> · acacia honey, tea and soft musk."}
+    };
+    let scores={warm:0,fresh:0,smoke:0,clean:0}, cur=0;
+    const show=(i)=>{ steps.forEach((s,j)=>s.hidden=j!==i); result.hidden=true; };
+    const finish=()=>{ steps.forEach(s=>s.hidden=true);
+      const top=Object.keys(scores).reduce((a,b)=>scores[b]>scores[a]?b:a);
+      noteEl.innerHTML=MAP[top].note; recEl.innerHTML=MAP[top].rec; result.hidden=false; };
+    quiz.querySelectorAll('.quiz__opts button').forEach(b=>b.addEventListener('click',()=>{
+      scores[b.dataset.k]++; cur++; if(cur<steps.length) show(cur); else finish();
+    }));
+    quiz.querySelector('#quizAgain').addEventListener('click',()=>{ scores={warm:0,fresh:0,smoke:0,clean:0}; cur=0; show(0); });
+  })();
+
+  // scroll reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:0.12, rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('[data-rise]').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

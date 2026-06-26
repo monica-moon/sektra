@@ -1,0 +1,26 @@
+# OS / editor
+.DS_Store
+**/.DS_Store
+.claude/
+
+# Raw source material (Midjourney exports, backups, scratch)
+peefume/
+_sillage_backup/
+_concepts.html
+_fonts.html
+
+# Unused / superseded media (not referenced by the site)
+assets/opaline.png
+assets/murano.png
+assets/velours.png
+assets/hero.png
+assets/iris.png
+assets/nacre.png
+assets/prisme.png
+assets/oiseau.png
+assets/fauve.png
+assets/cobalt.png
+assets/resine.png
+assets/hero-alt.mp4
+assets/film-sand.mp4
+assets/film-ocean.mp4
